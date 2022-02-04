@@ -1,4 +1,4 @@
-name: linux
+name: build-and-test_all
 
 on:
   push:
