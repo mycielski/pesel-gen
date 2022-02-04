@@ -1,6 +1,3 @@
-#![feature(test)]
-extern crate test;
-
 #[cfg(test)]
 mod tests {
     use pesel_gen::validation::validate_pesel;
