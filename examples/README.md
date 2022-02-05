@@ -22,7 +22,7 @@ W tym przykładzie pokazuję, jak znaleźć hasło do pliku zip znając jedynie 
     ```shell
     fcrackzip --use-unzip --dictionary --init-password ./wordlist.txt ./encrypted.zip
     ```
-    Udane znalezienie hasła wyświetla się w konsoli.
+    Informacja o znalezieniu hasła powinna wyświetlić się w konsoli.
     
 
 - W ostatnim kroku skrypt sprząta po sobie.
