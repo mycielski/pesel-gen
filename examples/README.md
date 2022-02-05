@@ -6,12 +6,12 @@ Na pewno każdemu czytelnikowi zdarzyło się otrzymać plik zaszyfrowany ich nu
 uzyskaniu dostępu do takiego pliku, mimo, że nie jest jego adresatem. Moje narzędzie bardzo ułatwia to zadanie.
 
 W tym przykładzie pokazuję, jak znaleźć hasło do pliku zip znając jedynie płeć i datę urodzenia adresata. Wystarczy
-wykonać skrypt `zip_password.py` aby zobaczyć jak szybko można odnaleźć hasło do pliku.
+wykonać skrypt `zip_password` (`.py` lub `.sh` - ich działania są tożsame) aby zobaczyć jak szybko można odnaleźć hasło do zipa.
 
 #### Krok po kroku:
 
-- Skrypt tworzy najpierw plik `encrypted.zip` zaszyfrowany hasłem `02070803628` (PESEL kobiety urodzonej w dniu
-  08-07-1902). Zawartością archiwum jest `standard-document.pdf`.
+- Skrypt tworzy najpierw archiwum `encrypted.zip` zaszyfrowany hasłem `02070803628` (PESEL kobiety urodzonej w dniu
+  08-07-1902). Jego zawartością jest `standard-document.pdf`.
     ```shell
     zip -P 02070803628 encrypted.zip standard-document.pdf
     ```
