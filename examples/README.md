@@ -34,3 +34,5 @@ wykonać skrypt `zip_password` (`.py` lub `.sh` - ich działania są tożsame) a
     rm ./wordlist.txt
     rm ./encrypted.zip
     ```
+
+Wszystko dzieje się bardzo szybko. Zachęcam Cię, czytelniku, do wstawienia breakpointów w skrypcie `zip_password` aby dać sobie chwilę na zweryfikowanie poprawności działania.
