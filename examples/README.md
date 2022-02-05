@@ -5,6 +5,8 @@
 Na pewno każdemu czytelnikowi zdarzyło się otrzymać plik zaszyfrowany ich numerem PESEL. Być może komuś zależy na
 uzyskaniu dostępu do takiego pliku, mimo, że nie jest jego adresatem. Moje narzędzie bardzo ułatwia to zadanie.
 
+---
+
 W tym przykładzie pokazuję, jak znaleźć hasło do pliku zip znając jedynie płeć i datę urodzenia adresata. Wystarczy
 wykonać skrypt `zip_password` (`.py` lub `.sh` - ich działania są tożsame) aby zobaczyć jak szybko można odnaleźć hasło
 do zipa.
