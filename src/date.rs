@@ -1,6 +1,6 @@
 use time::{Date, Month};
 
-pub fn date_from_arg(arg: String) -> Date {
+pub fn date_from_arg(arg: &String) -> Date {
     let split = arg
         .split('-')
         .map(|s| s.parse::<i32>().unwrap())
