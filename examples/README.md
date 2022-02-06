@@ -2,8 +2,8 @@
 
 ## Demo: Szukanie hasła do pliku zip
 
-Na pewno każdemu czytelnikowi zdarzyło się otrzymać plik zaszyfrowany ich numerem PESEL. Być może komuś zależy na
-uzyskaniu dostępu do takiego pliku, mimo, że nie jest jego adresatem. Moje narzędzie bardzo ułatwia to zadanie.
+Przesyłanie poufnych danych w pliku zip zaszyfrowanym numerem PESEL jest częstą praktyką. Być może komuś zależy na
+uzyskaniu dostępu do takiego archiwum, mimo, że nie jest jego adresatem. Moje narzędzie bardzo ułatwia to zadanie.
 
 ---
 
