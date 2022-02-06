@@ -12,7 +12,7 @@ struct Args {
 
     /// Use "m" for males, "f" for females and "mf" for both.
     #[clap(short, long)]
-    gender: String
+    gender: String,
 }
 
 fn main() {
