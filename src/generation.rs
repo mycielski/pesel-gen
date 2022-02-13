@@ -14,7 +14,7 @@ pub fn generate_pesel_numbers(birthday: Date, gender: char) {
     for value in (g..10).step_by(2) {
         for ppp in 000..=999 {
             let last_digit = calculate_checksum(format!("{:06}{:03}{:01}", rrmmdd, ppp, value));
-            println!("{}{}{}{}", rrmmdd, ppp, value, last_digit);
+            println!("{:06}{:03}{:01}{:01}", rrmmdd, ppp, value, last_digit);
         }
     }
 }
